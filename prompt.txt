@@ -1,0 +1,12 @@
+task: to create a face detection system to count the number of faces in the frame
+context:
+  -use python scripting 
+  -create a conda environment called my_face_det_env with python 3.10
+  -use opencv library
+  -use haarcascade classifier from opencv library for face detection 
+  -let the number of faces detected be populated on top right corner in green
+  -let there be a bound box around each face detected in blue
+architecture:
+  -face_det.py:the face detection logic
+  -readme.md:has details about the set up and running the code
+  -requirements.txt:list of dependancies
